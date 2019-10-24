@@ -1,0 +1,12 @@
+
+#-------------------------------------------------------
+#Classe Data
+class Date(object):
+  def __init__(self, date_today):
+    self.udate_today = date_today
+
+#Declara Data Atual
+current_date = datetime.now()
+now_date = current_date.strftime('%d/%m/%Y %H:%M:%S')
+Date.date_today = now_date
+#-------------------------------------------------------
